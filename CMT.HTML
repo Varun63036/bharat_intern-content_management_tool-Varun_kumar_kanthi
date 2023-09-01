@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BLOG CREATOR</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <a href="https://img.freepik.com/premium-vector/content-management-concept-with-icon-set-template-banner-circle-round-shape_25156-1473.jpg?w=2000"><img src="https://img.freepik.com/premium-vector/content-management-concept-with-icon-set-template-banner-circle-round-shape_25156-1473.jpg?w=2000" /></a>
+    </div>
+    <div class="right">
+      <label for="addtitle">
+        <h3><b>Add Title:</b></h3>
+      </label>
+      <input type="text" id="addtitle" placeholder="Enter title for the blog" />
+      <br />
+      <label for="addcontent">
+        <b><h3>Add Content</h3></b>
+      </label>
+      <textarea
+        id="addcontent"
+        name="addContent"
+        rows="10"
+        cols="50"
+        placeholder="Enter the content for the Blog!!!"
+      ></textarea>
+      <br />
+      <label>
+        <h3><b> Upload Photo</b></h3>
+      </label>
+      <input type="file" id="image_input" accept="image/*" />
+      <label>
+        <h3><b>Upload Video</b></h3>
+      </label>
+      <input type="file" id="video_input" accept="video/*" />
+      <br />
+      <br />
+      <button id="submitButton">SUBMIT</button>
+    </div>
+  </div>
+
+  <div id="preview_container"></div>
+  <script src="index.js"></script>
+</body>
+</html>
